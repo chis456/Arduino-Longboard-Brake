@@ -37,6 +37,14 @@ our system activate when it shouldn't. A possible fix would be to increase the l
 reduce the effectiveness of the brake overall.  
 We decided that it would be best to designate this brake system for Longboards since they are more often used for commuting rather than use in skateparks.  
 
+Additionally the electromagnet we used requires a whole other battery system to keep it running, and most likely uses a decent amount of power. Our original design used solenoid magnets that would
+push or pull a small platform for the brake to rest on, but this proved ineffective as the solenoids didn't draw enough power to pull in and release the brake due to the frictional force that the brake would
+exert onto the magnets.
+
+
+https://github.com/chis456/Arduino-Longboard-Brake/assets/55999720/66223d78-033e-4619-9407-e35e00542efb
+
+
 Additionally our design is very rudimentary with exposed wiring, and often the moving parts will create noise in the electrical signals. In possible future iterations it would be best
 for the system wiring to be built onto a pcb with some sort of casing around it.
 
