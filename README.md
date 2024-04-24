@@ -16,12 +16,18 @@ longboard as they usually would.
 In the case where they fall or otherwise leave their longboard in an uncontrolled manner, the load cell will detect this drop in weight, and begin the braking process.
 By default, the electromagnet keeping the brake attached to the longboard is on, but the arduino is programmed to tell the magnet to turn off in the absence of a user riding
 the longboard. Finally, when the magnet turns off, the mechanical brake drops from the bottom of the longboard and creates friction with the ground, bringing it to a stop.
+![LoadCellCircuit](https://github.com/chis456/Arduino-Longboard-Brake/assets/55999720/589bfb84-10ed-4f33-a422-a16cc71f6cf6)
+![ArduinoImage](https://github.com/chis456/Arduino-Longboard-Brake/assets/55999720/d399dba6-8816-4ac3-b516-a9cbfbc32197)
 
 We used this very helpful guide in setting up the load cell circuitry: https://circuitjournal.com/50kg-load-cells-with-HX711
 
 ## Results
 Testing on flat cement, we found that the longboard would roll to a stop after travelling about on average 9.4 meters in 21 seconds.
 Equipped with the braking system however, the longboard would come to a stop after travelling on average 2.3 meters in 3.4 seconds.
+
+
+https://github.com/chis456/Arduino-Longboard-Brake/assets/55999720/63cf1870-4903-417d-bd4c-c26057cb0a52
+
 
 
 
